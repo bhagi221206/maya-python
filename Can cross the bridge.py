@@ -1,0 +1,6 @@
+Python 3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+>>> import sys
+... data = list(map(int, sys.stdin.read().strip().split()))
+... x, y, z = data[0], data[1], data[2]
+... result = (z - y) // x
